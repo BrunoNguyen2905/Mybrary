@@ -1,4 +1,4 @@
-if(process.env.NODE_ENV !== "production"){ //check if running in the production environment
+if(process.env.NODE_ENV !== "production"){ //check if not running in the production environment
     require('dotenv').config();
 }
 const express = require('express');
