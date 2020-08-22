@@ -25,7 +25,7 @@ router.get('/new', (req,res) => {//displaying the form
 })
 
 //Create Author Route
-router.post('/', async (req, res) => {//create an author
+router.post('/', async (req, res) => {//create an author after click submit
     const author = new Author({
         name: req.body.name
     })
